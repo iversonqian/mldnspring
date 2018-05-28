@@ -8,6 +8,7 @@ public class DeptDAOImpl implements IDeptDAO {
 
 	@Override
 	public boolean doCreate(Dept vo) {
+		System.out.println("test git commit");
 		System.err.println("【数据层】" + vo);
 		return true;
 	}
